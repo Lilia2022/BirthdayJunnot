@@ -114,3 +114,9 @@ body{
     top:200px;
     background-color: rgb(174, 102, 145);
 }
+
+.frames:nth-child(5)
+{
+    top:300px;
+    background-color: rgb(160, 60, 157);
+}
