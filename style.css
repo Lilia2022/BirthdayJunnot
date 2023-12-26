@@ -174,6 +174,108 @@ body{
     
 }
 
+/*family*/
+
+.container{
+    perspective: 1000px;
+}
+.container .imgbirth{
+    padding-bottom: 20%;
+    max-width: cover;
+    height: auto;
+    width: 100%;
+}
+.card{
+    width: 280px;
+    height: 360px;
+    position: absolute;
+    top: 5px;
+    left: 230px;
+    transition: 2s;
+    transform-style: preserve-3d;
+}
+.card:hover{
+    transform: rotateY(180deg);
+}
+.block{
+    position: absolute;
+    top:5px;
+    right: 600px;
+    perspective: 800px;
+}
+.outside,.inside{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    text-align: center;
+    padding: 1.5rem;
+}
+.outside{
+    background-color: rgb(207, 184, 148);
+    box-shadow: inset 0 5px 10px rgba(0,0,0,0.5);
+    position: absolute;
+    backface-visibility: hidden;
+}
+.outside h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: salmon;
+    margin-bottom: 30px;
+}
+.inside{
+    background-color: rgb(255, 244, 79);
+    box-shadow: inset 0 5px 10px rgba(0,0,0,0.5);
+    transform: rotateY(180deg);
+}
+.inside h3{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.frames{
+    width: 400px;
+    height: 150px;
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 0.8rem;
+
+    transform: rotateY(-230deg) rotateX(20deg);
+    position: absolute;
+}
+.frames img{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+.frames p{
+   font-size: 20px;
+   font-weight: bold;
+   transform: rotateY(180deg);
+}
+.frames:nth-child(1)
+{
+    top:-110px;
+    z-index: -1;
+    background-color: coral;
+}
+.frames:nth-child(2){
+    background-color: goldenrod;
+}
+.frames:nth-child(3)
+{
+    top:100px;
+    background-color: burlywood;
+}
+.frames:nth-child(4)
+{
+    top:200px;
+    background-color: rgb(139, 173, 54);
+}
+
+
 @media(max-width: 800px){
     .box-vid{
         min-height: 600px;
