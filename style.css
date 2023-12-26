@@ -164,7 +164,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1.5rem;
+    
 }
 .sweety-img img{
     padding-bottom: 0;
@@ -180,7 +180,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1.4rem;
+    
 }
 .friends-img img{
     padding-bottom: 0%;
@@ -189,8 +189,20 @@ body{
     width: 100%;
     
 }
-/*family*/
 
+
+/*footer*/
+.footer{
+    padding: 30px 12px;
+    align-content: center;
+    align-items: center;
+    background: black ;
+}
+
+.footer .footer-div{
+    color: #fff;
+    margin: 5px 500px;
+}
 @media(max-width: 800px){
     .box-vid{
         min-height: 600px;
