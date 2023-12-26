@@ -11,6 +11,16 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.logo{
+    position: relative;
+    font-size: 25px;
+    color:#fff;
+    text-decoration: none;
+    font-weight:600 ;
+}
+.logo:hover{
+    color:  cyan;
+}
 .container{
     perspective: 1000px;
 }
