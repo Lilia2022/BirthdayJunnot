@@ -168,6 +168,7 @@ body{
 }
 .sweety-img img{
     padding-bottom: 0;
+    padding: 0 0;
     max-width: cover;
     height: auto;
     width: 100%;
